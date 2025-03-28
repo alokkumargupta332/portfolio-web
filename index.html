@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alok Kumar Gupta | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <a href="#" class="logo">Alok</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#experience" onclick="toggleMenu();">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br><span>Alok Kumar Gupta.</span></h2>
+            <h3>Full Stack Developer | MERN Stack</h3>
+            <div class="social-icons">
+                <a href="https://github.com/Adokgupta1" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/alokkumargupta332" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:aalokg332@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+        <div class="profile-img">
+            <img src="Alok image.jpg" alt="Alok Kumar Gupta">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Computer Science Engineer</h3>
+                <p>I'm a B.Tech student at NRI Institute of Information Science and Technology (NIIST), Bhopal with a CGPA of 6.97. Passionate about web development and building full-stack applications using modern technologies.</p>
+                <p>My journey in tech began with learning front-end development and has now expanded to include back-end technologies. I enjoy solving complex problems and creating seamless user experiences.</p>
+                <div class="info">
+                    <div><strong>Phone:</strong> +91-7489083470</div>
+                    <div><strong>Email:</strong> aalokg332@gmail.com</div>
+                    <div><strong>Location:</strong> Bhopal, Madhya Pradesh</div>
+                </div>
+            </div>
+            <div class="w50">
+                <img src="ji.jpg" class="img" alt="About Alok">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="heading white">
+            <h2>Technical Skills</h2>
+        </div>
+        <div class="content">
+            <div class="skillsBx">
+                <h3>Languages</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>C/C++</li>
+                </ul>
+            </div>
+            <div class="skillsBx">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="skillsBx">
+                <h3>Backend</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                </ul>
+            </div>
+            <div class="skillsBx">
+                <h3>Databases</h3>
+                <ul>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="skillsBx">
+                <h3>Tools</h3>
+                <ul>
+                    <li>VS Code</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="heading">
+            <h2>Experience & Education</h2>
+        </div>
+        <div class="content">
+            <div class="expBx">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Code Alpha</h3>
+                        <h4>Web Development Intern</h4>
+                        <span>Oct 2023 - Nov 2023</span>
+                        <ul>
+                            <li>Created responsive interfaces using HTML, CSS, JavaScript</li>
+                            <li>Worked with React components and state management</li>
+                            <li>Participated in team meetings and code reviews</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>NRI Institute of Information Science and Technology</h3>
+                        <h4>B.Tech, Computer Science</h4>
+                        <span>Oct 2021 - Jun 2025 (Expected)</span>
+                        <p>CGPA: 6.97</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>NOV Sonanchal Higher Secondary School</h3>
+                        <h4>Class 12th, MP Board</h4>
+                        <span>2021</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="heading">
+            <h2>My Projects</h2>
+        </div>
+        <div class="content">
+            <div class="projectBx">
+                <img src="https://via.placeholder.com/400x300" alt="Amazon Clone">
+                <div class="layer">
+                    <h3>Amazon Clone</h3>
+                    <p>Fully functional e-commerce website with dynamic cart, product filtering, and user authentication</p>
+                    <ul>
+                        <li>HTML/CSS/JavaScript</li>
+                        <li>Responsive Design</li>
+                        <li>Interactive Elements</li>
+                    </ul>
+                    <a href="#" target="_blank"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="projectBx">
+                <img src="https://via.placeholder.com/400x300" alt="Traveler's Haven">
+                <div class="layer">
+                    <h3>Traveler's Haven (MERN Stack)</h3>
+                    <p>Airbnb-like web application with property listings and booking management</p>
+                    <ul>
+                        <li>React Frontend</li>
+                        <li>Node.js/Express Backend</li>
+                        <li>MongoDB Database</li>
+                        <li>User Authentication</li>
+                    </ul>
+                    <a href="#" target="_blank"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications">
+        <div class="heading white">
+            <h2>Certifications</h2>
+        </div>
+        <div class="content">
+            <div class="certBx">
+                <h3>Apana College</h3>
+                <p>Web Development Certification (Delta Batch)</p>
+                <a href="#" class="btn">View Certificate</a>
+            </div>
+            <div class="certBx">
+                <h3>GeeksForGeeks</h3>
+                <p>Data Structures and Algorithms Practice</p>
+                <a href="#" class="btn">View Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Get In Touch</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Bhopal, Madhya Pradesh 462022</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+91-7489083470</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>aalokg332@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/Adokgupta1" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/alokkumargupta332" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:aalokg332@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name" required>
+                    <input type="email" name="" placeholder="Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="copyright">
+        <p>Copyright © 2024 Alok Kumar Gupta. All Rights Reserved.</p>
+    </div>
+
+    <script src="function.js"></script>
+</body>
+</html>
